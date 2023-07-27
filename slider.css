@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    margin-top: 20vw;
+    margin: auto;
+    width: 60%;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+    overflow: hidden;
+}
+
+.slide-container{
+ 
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.nav {
+    margin-top: 15px;
+	width:60%;
+	margin:auto;
+	    text-align: end;
+}
+
+.nav button{
+	background:white;
+	border:none;
+}

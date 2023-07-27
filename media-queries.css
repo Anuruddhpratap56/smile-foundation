@@ -1,0 +1,43 @@
+/* media-queries.css */
+
+/* Tablet styles */
+@media screen and (max-width: 1024px) {
+    .desc-main .description,
+    .desc .desc1 {
+      padding: 0.5rem; /* Reduce padding for tablet devices */
+    }
+  
+    .about {
+      margin-top: 20rem; /* Adjust the margin for better positioning on tablets */
+    }
+  
+    .about-heading {
+      font-size: 3rem; /* Reduce font size for better fit on tablets */
+      margin-left: 5rem; /* Adjust the margin for better positioning on tablets */
+    }
+  
+    /* Add any other tablet-specific styles here */
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 768px) {
+    .header {
+      padding: 2rem 5%; /* Adjust padding for better fit on mobile devices */
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr; /* Single column layout for mobile devices */
+    }
+  
+    .about {
+      margin-top: 10rem; /* Adjust the margin for better positioning on mobile devices */
+    }
+  
+    .about-heading {
+      font-size: 2.5rem; /* Reduce font size for better fit on mobile devices */
+      margin-left: 2rem; /* Adjust the margin for better positioning on mobile devices */
+    }
+  
+    /* Add any other mobile-specific styles here */
+  }
+  
